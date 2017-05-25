@@ -18,7 +18,6 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), DrawActivity.class);
                 startActivity(intent);
-                //код игры
             }
         });
     }
